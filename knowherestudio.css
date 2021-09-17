@@ -1,0 +1,151 @@
+/* cssforheader */
+header{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+}
+.headernav img{
+    width: 12%;
+    padding: 12px 32px;
+}
+.headernav{
+    width: 1500px;
+}
+.headernav div{
+    position:absolute ;
+    right: 0px;
+    top: 10px;
+    display: inline;
+    /* background-color: black; */
+}
+.headernav a{
+    padding:12px 22px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.headernav a:hover{
+    text-decoration: underline;
+}
+.blacktoyellow{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 800;
+    width: 145px;
+    height: 42px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    /* position: static;
+    top: 0px; */
+}
+.blacktoyellow:hover{
+    background-color: rgba(255, 217, 0, 0.911);
+    color: #000;
+    cursor: pointer;
+}
+header hr{
+    color: #000;
+}
+/* Cssforcontainer1 */
+.container1{
+    padding: 144px 32px 144px 80px;
+}
+.container1 h1{
+    font-size: 75px;
+    width: 1000px;
+    margin: 0px;
+}
+.container1 p{
+    font-size: 30px;
+    width: 656px;
+}
+.container1 button{
+    width: 150px;
+    height: 60px;
+    border: solid;
+}
+.whitetopink{
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.whitetopink:hover{
+    cursor: pointer;
+    background-color: rgb(233, 178, 212);
+}
+/* Cssforcontainer1end */
+
+/* Cssforconatiner4 */
+.container4{
+    border: 2px solid #000;
+    width: 100%;
+    padding-bottom: 60px;
+    margin: 20px 20px;
+    
+}
+#imageforcontainer4{
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    position: relative;
+    left: 0px;
+}
+#img2{
+    position: relative;
+    left: 250px;
+}
+.imageflex{
+    width: 25%;
+}
+#img3{
+    position: relative;
+    left: 50px;
+}
+.container4text{
+    padding: 50px 50px 50px 100px;
+}
+.container4text H1{
+    font-size: 45px;
+    font-weight: 900;
+    width: 90%;
+}
+/* Cssforcontainer4end */
+
+/* Cssforfooter */
+footer{
+    background-color: gray;
+    padding: 40px 20px;
+}
+.Flexcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.Flexcontainer img{
+    width: 45%;
+}
+.Flexcontainer p{
+    font-size: 20px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+.Flexcontainer li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.Flexcontainer a{
+    color: black;
+}
+.Flexcontainer a:hover{
+    color: #000;
+}
+.Flexcontainer li:hover{
+    cursor: pointer;
+}
